@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>REGISTER</title>
+	<link rel="stylesheet" type="text/css" th:href="@{/reg.css}" >
+</head>
+
+<body>
+	
+	<form action="register" method="post">
+		<h3 style="text-align: center;"> REGISTRATION FORM</h3>
+		<label>userame: </label>
+		<input class="name-area" type="text" name="username" placeholder="enter name">
+		<br><br>
+		<label>Email: </label>
+		<input class="email-area" type="email" name="email" placeholder="enter email">
+		<br><br>
+		<label>password: </label>
+		<input placeholder="password" name="password" type="password">
+		<br><br>  
+		<label>Gender:</label>
+		<br><br>
+		male: <input class="rad-1" type="radio" name="gender" value="male">
+		female:<input class="rad-2" type="radio" name="gender" value="female">
+		others: <input class="rad-3" type="radio" name="gender" value="others">
+		<br><br>
+		<label>Role:</label>
+		<br><br>
+		Admin <input class="rad-1" type="radio" name="role" value="admin">
+		customer <input class="rad-2" type="radio" name="role" value="customer">
+		<br><br>
+		<label>Address: </label>
+		<br><br>
+		<textarea class="address-area" placeholder="enter address" name="address"></textarea>
+		<br><br>
+		<button class="submit-button" type="submit" value="SUBMIT">Submit</button>
+
+	</form>
+
+</body>
+
+</html>

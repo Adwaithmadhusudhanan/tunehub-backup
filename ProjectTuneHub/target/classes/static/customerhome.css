@@ -1,0 +1,47 @@
+/* customer.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff; /* White background */
+  color: rgb(5, 108, 74); /* Primary text color */
+  text-align: center;
+  padding-top: 50px;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+  color: rgb(5, 108, 74);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+form {
+  margin: 20px;
+}
+
+input[type=submit] {
+  background-color: rgb(5, 108, 74);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+   width: 200px;
+}
+
+input[type=submit]:hover {
+  background-color: #046c4e; /* A darker shade for hover effect */
+}
+.pm{
+	
+	height: 700px;
+	width: 400px;
+	background-color: #f7f7f7; /* Light grey background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

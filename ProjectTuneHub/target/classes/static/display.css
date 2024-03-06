@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff; /* White background */
+  color: rgb(5, 108, 74); /* Primary text color */
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid rgb(5, 108, 74);
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: rgb(5, 108, 74);
+  color: white;
+}
+
+th {
+  font-weight: bold;
+}
+
+audio {
+  width: 100%; /* Makes the audio player stretch to the full width of the cell */
+}
+
+/* Style for the play button */
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: rgb(5, 108, 74);
+  color: white;
+}
+
+/* Hover effect for table rows */
+tbody tr:hover {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,48 @@
+/* add-song.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff; /* White background */
+  color: rgb(5, 108, 74); /* Primary text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+	
+  background-color: #f7f7f7; /* Light grey background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+label {
+  color: rgb(5, 108, 74);
+  font-weight: bold;
+  display: block; /* Makes the label take the full width */
+  margin-top: 10px;
+}
+
+input[type=text],
+input[type=submit] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px; /* Adds a little space above the input field */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: rgb(5, 108, 74);
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #046c4e; /* A darker shade for hover effect */
+}
